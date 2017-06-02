@@ -1,0 +1,27 @@
+{
+  "name": "spalah2017.gubanov.eu",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server -p 8067 -a localhost -o -s",
+    "ngrok": "ngrok http 8067",
+    "start": "npm-run-all --parallel serve ngrok"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "ngrok": "^2.2.3",
+    "npm-run-all": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finom/spalah2017.gubanov.eu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finom/spalah2017.gubanov.eu/issues"
+  },
+  "homepage": "https://github.com/finom/spalah2017.gubanov.eu#readme"
+}

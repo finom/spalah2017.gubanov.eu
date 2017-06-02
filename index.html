@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Advanced Course by Andrey Gubanov</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900" rel="stylesheet">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="description" content="Sign up for JavaScript Advanced Course by Andrey Gubanov at Spalah IT school in Odesa">
+    <meta name="twitter:card" value="summary">
+    <meta property="og:title" content="JavaScript Advanced Course by Andrey Gubanov">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://spalah2017.gubanov.eu">
+    <meta property="og:image" content="photo.jpg">
+    <meta property="og:description" content="Sign up for JavaScript Advanced Course by Andrey Gubanov at Spalah IT school in Odesa">
+    <meta name="robots" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            font-size: 16px;
+        }
+        :root, body { height: 100%; }
+        body {
+            font-family: 'Source Code Pro', monospace;
+            overflow: hidden;
+            line-height: 150%;
+        }
+
+        main {
+            max-width: 1300px;
+            min-height: calc(100% - 2%);
+            padding: 5%;
+            padding-top: 0;
+            margin: 0 auto;
+            margin-top: 2%;
+            display: flex;
+            flex-direction: row;
+            background: url(photo.jpg) right 10px no-repeat;
+            background-size: contain;
+            overflow: auto;
+        }
+
+        #gubanov-eu {
+            display: block;
+            color: #fb9f3c;
+            text-decoration: none;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 2rem;
+            line-height: 100%;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            font-size: 16px;
+
+            line-height: 200%;
+        }
+
+        ul {
+            list-style: none;
+            line-height: 200%;
+            margin-bottom: 2rem;
+        }
+
+        li > span {
+            background: #fff;
+        }
+
+        main::after {
+            content: '';
+            flex: 1;
+        }
+
+
+
+        #info {
+            margin-top: 5%;
+            flex: 1;
+        }
+
+        #apply {
+            display: inline-block;
+            text-decoration: none;
+            background: #fba03b;
+            color: #fff;
+            line-height: 300%;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        @media (max-width: 850px) {
+            main {
+                background: none;
+            }
+            main::after {
+                content: none;
+            }
+        }
+
+        @media (max-width: 650px) {
+            #apply {
+                display: block;
+            }
+        }
+    </style>
+</head>
+    <body>
+        <main>
+            <div id="info">
+                <a href="http://gubanov.eu" target="_blank" id="gubanov-eu">Andrey Gubanov</a>
+                <h1>
+                    JavaScript Advanced Course
+                </h1>
+
+                <p>I'll be glad to meet on my course at Spalah IT school in Odesa. The course starts 22 Juli, 2017.</p>
+
+                <h2>You will study:</h2>
+
+                <ul>
+                    <li><span>- Team development process tooling (Git, Github)</span></li>
+                    <li><span>- Continuous delivery of web applications (Travis CI, unit testing)</span></li>
+                    <li><span>- ECMASCript 2017 features and the future of JavaScript</span></li>
+                    <li><span>- Bundling, linting, transpiling and all the widely used stuff (Babel, Webpack, NPM scripts...)</span></li>
+                    <li><span>- Some secrets from the guy who made 40+ open source projects and who worked for many clients all around the world</span></li>
+                </ul>
+
+                <a href="http://spalah.ua/od/school/javascript-advanced" target="_blank" id="apply">Apply there</a>
+            </div>
+        </main>
+    </body>
+</html>
